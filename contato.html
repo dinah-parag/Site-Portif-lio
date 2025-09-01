@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Portfólio</title>
+  <title>Contato | Meu Portfólio |</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,6 +21,7 @@
     </nav>
   </header>
 
+<!-- Conteúdo -->
 <main>
   <h1>Contato</h1>
   <form id="contato-form">
@@ -37,47 +38,18 @@
   </form>
 </main>
 
+<!-- Rodapé -->
   <footer>
-    <p>&copy; 2025 - Dinah Rebeca Dantas Silva (RU: 5114293)</p>
+    <p>&copy; 2025 - Dinah Rebeca Dantas Silva (RU: 5114293) <br> dinah.dantass@gmail.com</p>
   </footer>
 
 </body>
 </html>
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: auto;
-}
-
-form label {
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-
-form input, form textarea {
-  padding: 10px;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-}
-
-form button {
-  margin-top: 15px;
-  padding: 10px;
-  background: #00bcd4; /* escolha estética */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background: #0097a7;
-}
+<!-- Pop up após mensagem enviada -->
 
 document.getElementById("contato-form").addEventListener("submit", function(e) {
   e.preventDefault();
-  alert("Mensagem enviada com sucesso! (Simulação)");
+  alert("Mensagem enviada com sucesso!");
 });
 
