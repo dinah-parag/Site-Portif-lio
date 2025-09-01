@@ -1,0 +1,60 @@
+/* Implementação e modificação das escolhas estéticas */
+
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  background-color: #69638a; 
+  color: #201d24;
+}
+
+/* Menu fixo */
+header {
+  background: #222; 
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #4c847b;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: rgb(237, 206, 241);
+}
+
+/* Conteúdo */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background: #222;
+  color: #b2ccc7;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
